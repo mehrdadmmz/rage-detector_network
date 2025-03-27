@@ -40,6 +40,7 @@ def videoToFrames(video_path, output_folder, start_frame_number):
 if __name__ == "__main__":
     
     # 2
+    # please modify the paths based on the location of the vidoes saved on your machine
     if VIDEO_TYPE == "rage": 
         video_files = [f"./MMZ_data/rage/rage_{i}.mov" for i in range(1, 21)]
     else if VIDEO_TYPE == "non_rage": 
