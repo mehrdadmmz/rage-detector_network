@@ -28,7 +28,7 @@ def videoToFrames(video_path, output_folder, start_frame_number):
             # 1
             if VIDEO_TYPE == "rage":
                 frame_name = os.path.join(output_folder, f"non_rage_{current_frame_label:04d}.jpg")
-            else if VIDEO_TYPE == "non_rage":
+            elif VIDEO_TYPE == "non_rage":
                 frame_name = os.path.join(output_folder, f"rage_{current_frame_label:04d}.jpg")
             cv2.imwrite(frame_name, frame)
         else:
@@ -43,21 +43,21 @@ if __name__ == "__main__":
     # please modify the paths based on the location of the vidoes saved on your machine
     if VIDEO_TYPE == "rage": 
         video_files = [f"./MMZ_data/rage/rage_{i}.mov" for i in range(1, 21)]
-    else if VIDEO_TYPE == "non_rage": 
+    elif VIDEO_TYPE == "non_rage": 
         video_files = [f"./MMZ_data/non_rage/non_rage_{i}.mov" for i in range(1, 21)]
 
     # 3
     if VIDEO_TYPE == "rage": 
         output_folder = "NON_RAGE"
-    else if VIDEO_TYPE == "non_rage": 
+    elif VIDEO_TYPE == "non_rage": 
         output_folder = "RAGE"
     
     # 4
     if EDITOR == "Arthur": 
         current_start_label = 0    # Arthur 
-    else if EDITOR == "Daniel": 
+    elif EDITOR == "Daniel": 
         current_start_label = 1800 # Daniel
-    else if EDITOR == "Mehrdad": 
+    elif EDITOR == "Mehrdad": 
         current_start_label = 3600 # Mehrdad
     
 
