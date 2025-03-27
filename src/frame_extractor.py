@@ -21,7 +21,6 @@ def videoToFrames(video_path, output_folder, start_frame_number):
         if success:
             frame_count += 1
             current_frame_label += 1
-            # Generate filename using the global frame numbering
             # 1
             # please comment out the one you are not working on right now
             frame_name = os.path.join(output_folder, f"non_rage_{current_frame_label:04d}.jpg")
@@ -53,9 +52,7 @@ if __name__ == "__main__":
     current_start_label = 3600 # Mehrdad
 
     for video in video_files:
-        # Pass the current start label to videoToFrames
         video_name = os.path.basename(video)
         print(f"Processing {video_name}, saving frames to folder: {output_folder}")
         videoToFrames(video, output_folder, current_start_label)
-        # Advance the label for the next video
         current_start_label += MAX_FRAME_COUNT
