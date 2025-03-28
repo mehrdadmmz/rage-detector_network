@@ -27,9 +27,9 @@ def videoToFrames(video_path, output_folder, start_frame_number):
 
             # 1
             if VIDEO_TYPE == "rage":
-                frame_name = os.path.join(output_folder, f"non_rage_{current_frame_label:04d}.jpg")
-            elif VIDEO_TYPE == "non_rage":
                 frame_name = os.path.join(output_folder, f"rage_{current_frame_label:04d}.jpg")
+            elif VIDEO_TYPE == "non_rage":
+                frame_name = os.path.join(output_folder, f"non_rage_{current_frame_label:04d}.jpg")
             cv2.imwrite(frame_name, frame)
         else:
             break
@@ -48,9 +48,9 @@ if __name__ == "__main__":
 
     # 3
     if VIDEO_TYPE == "rage": 
-        output_folder = "NON_RAGE"
-    elif VIDEO_TYPE == "non_rage": 
         output_folder = "RAGE"
+    elif VIDEO_TYPE == "non_rage": 
+        output_folder = "NON_RAGE"
     
     # 4
     if EDITOR == "Arthur": 
