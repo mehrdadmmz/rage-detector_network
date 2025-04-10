@@ -84,7 +84,7 @@ dataset/
    pip install numpy tqdm matplotlib scikit-learn torch torchvision
    ```
 4. **Prepare the dataset:**
-   TODO: I have to upload it on the Huggingface and give some instructions on how to use it 
+   TODO: I will upload it on the Huggingface and give some instructions on how to use it 
 6. **Training the Model:**
    To run the main training loop, execute:
    ```bash
@@ -139,7 +139,7 @@ fter training, the best model is evaluated on the validation set. A confusion ma
   - Future improvements might include adding more model architectures, further hyperparameter tuning, or an advanced data augmentation strategy.
  
 ## Contributors
-- [Mehrdad Momeni Zadeh](https://github.com/mhrddmmz) – mma236@sfu.ca
+- [Mehrdad Momeni zadeh](https://github.com/mhrddmmz) – mma236@sfu.ca
 - [Zheng (Arthur) Li](https://github.com/Mercury-AL) – zla229@sfu.ca
 - [Daniel Surina](https://github.com/sosokokos) – dsa108@sfu.ca
 
