@@ -138,7 +138,7 @@ fter training, the best model is evaluated on the validation set. A confusion ma
 - Future Work:
   - Future improvements might include adding more model architectures, further hyperparameter tuning, or an advanced data augmentation strategy.
  
-## Contributers
-- Mehrdad Momeni zadeh {mma236@sfu.ca} {https://github.com/mhrddmmz}
-- Zheng (Arthur) Li {zla229@sfu.ca} {https://github.com/sosokokos}
-- Daniel Surina {dsa108@sfu.ca} {https://github.com/Mercury-AL}
+## Contributors
+- [Mehrdad Momeni Zadeh](https://github.com/mhrddmmz) – mma236@sfu.ca
+- [Zheng (Arthur) Li](https://github.com/sosokokos) – zla229@sfu.ca
+- [Daniel Surina](https://github.com/Mercury-AL) – dsa108@sfu.ca
