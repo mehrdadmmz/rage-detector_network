@@ -12,6 +12,7 @@ This repository contains code for training an image classifier using MobileNetV2
 - [Self-Evaluation](#self-evaluation)
 - [Dependencies and Setup Instructions](#dependencies-and-setup-instructions)
 - [Additional Notes](#additional-notes)
+- [Contributers](#contributers)
 
 ## Project Structure
 
@@ -136,3 +137,8 @@ fter training, the best model is evaluated on the validation set. A confusion ma
   - The modular organization allows easy experimentation with different components (e.g., model architecture, data augmentation, hyperparameters).
 - Future Work:
   - Future improvements might include adding more model architectures, further hyperparameter tuning, or an advanced data augmentation strategy.
+ 
+## Contributers
+- Mehrdad Momeni zadeh {mma236@sfu.ca} {https://github.com/mhrddmmz}
+- Zheng (Arthur) Li {zla229@sfu.ca} {https://github.com/sosokokos}
+- Daniel Surina {dsa108@sfu.ca} {https://github.com/Mercury-AL}
