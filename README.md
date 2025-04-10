@@ -6,6 +6,7 @@ This repository contains code for training an image classifier using MobileNetV2
 
 - [Project Structure](#project-structure)
 - [Dataset Structure](#dataset-structure)
+- [Pre Trained Model Structure](#pre-trained-model-structure)
 - [Running the Code](#running-the-code)
 - [Training and Validation Loss](#training-and-validation-loss)
 - [Confusion Matrix](#confusion-matrix)
@@ -81,6 +82,10 @@ dataset/
 ```
 
 *Note:* This code uses the `datasets.ImageFolder` utility from torchvision. It assumes there are two subfolders inside the dataset and takes them as two labels. 
+
+## Pre Trained Model Structure
+
+<img width="810" alt="image" src="https://github.com/user-attachments/assets/d42b3e7f-158b-46b4-87a6-1a6036e7237f" />
 
 ## Running the Code
 
