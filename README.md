@@ -140,5 +140,7 @@ fter training, the best model is evaluated on the validation set. A confusion ma
  
 ## Contributors
 - [Mehrdad Momeni Zadeh](https://github.com/mhrddmmz) – mma236@sfu.ca
-- [Zheng (Arthur) Li](https://github.com/sosokokos) – zla229@sfu.ca
-- [Daniel Surina](https://github.com/Mercury-AL) – dsa108@sfu.ca
+- [Zheng (Arthur) Li](https://github.com/Mercury-AL) – zla229@sfu.ca
+- [Daniel Surina](https://github.com/sosokokos) – dsa108@sfu.ca
+
+
