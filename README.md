@@ -26,8 +26,22 @@ src/
 ├── model_setup.py        # Model initialization and modifications
 ├── seed.py               # Random seed setup for reproducibility
 ├── train_val.py          # Training, validation, and utility functions
-├── README.md             # Project documentation
-└── dataset/              # Image dataset organized in subfolders
+└── README.md             # Project documentation
+
+dataset/
+├── rage/
+│   ├── rage_1.jpg
+│   ├── rage_2.jpg
+│   ├── rage_3.jpg
+│   ├── ...
+│   └── rage_5400.jpg
+│   
+└── non-rage/
+    ├── non_rage_1.jpg
+    ├── non_rage_2.jpg
+    ├── non_rage_3.jpg
+    ├── ... 
+    └── non_rage_5040.jpg
 
 notebook/
 ├── model.ipynb           # Jupyter Notebook for model exploration
