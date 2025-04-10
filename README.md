@@ -65,4 +65,74 @@ dataset/
     └── non_rage_5040.jpg
 ```
 
+*Note:* This code uses the `datasets.ImageFolder` utility from torchvision. It assumes there are two subfolders inside the dataset and takes them as two labels. 
 
+## Running the Code
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/mehrdadmmz/rage-detector_network
+   cd src
+   ```
+
+2. **Install the dependencies:**
+
+   The project relies on libraries such as NumPy, PyTorch, torchvision, tqdm, matplotlib, and scikit-learn. Install these using pip (consider using a virtual environment):
+   ```bash
+   pip install numpy tqdm matplotlib scikit-learn torch torchvision
+   ```
+4. **Prepare the dataset:**
+   TODO: I have to upload it on the Huggingface and give some instructions on how to use it 
+6. **Training the Model:**
+   To run the main training loop, execute:
+   ```bash
+   python main.py
+   ```
+   This script trains MobileNetV2 with the specified hyperparameters, saves the best model checkpoint, and outputs evaluation results including the confusion matrix and               classification report.
+8. **EDA Experiments:**
+   The EDA experiments (exploring different hyperparameters such as learning rate, dropout rate, batch size, data augmentation strategies, freezing vs. fine-tuning, and optimizer     comparisons) are contained in eda_experiments.py. Run this file to see how different configurations affect model performance:
+   ```bash
+    python eda_experiments.py
+   ```
+10. **Notebook Version:**
+    If you prefer working in a Jupyter Notebook environment, open the provided notebook file and run the cells interactively.
+
+## Training and Validation Loss
+During training, both the training and validation losses are recorded for every epoch. After training, a graph is plotted showing the progress of both losses over the epochs.
+
+<img width="709" alt="image" src="https://github.com/user-attachments/assets/b2b7b327-4477-4243-a277-fe3f3cf9539c" />
+
+## Confusion Matrix
+fter training, the best model is evaluated on the validation set. A confusion matrix is generated to visualize the classification performance, along with a detailed classification report.
+
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/e09fc7b9-ee64-47d5-8b39-4ea863f1628f" />
+
+## Self-Evaluation
+## Dependencies and Setup Instructions
+- Python 3.6 or later:
+  - The code has been tested with Python 3.8+.
+- PyTorch and Torchvision:
+  - Install these libraries using pip:
+  ```bash
+    pip install torch torchvision
+  ```
+- Other Libraries:
+  - The project requires:
+      - numpy
+      - tqdm
+      - matplotlib
+      - scikit-learn
+  - Install them with:
+  ```bash
+  pip install numpy tqdm matplotlib scikit-learn
+  ```
+- No Special Software Requirements:
+  - There are no dependencies on external tools such as Unity.
+## Additional Notes
+- Reproducibility:
+  - The code sets a fixed seed (default 42) in seed.py to ensure reproducibility. You can modify the seed as needed.
+- Modularity:
+  - The modular organization allows easy experimentation with different components (e.g., model architecture, data augmentation, hyperparameters).
+- Future Work:
+  - Future improvements might include adding more model architectures, further hyperparameter tuning, or an advanced data augmentation strategy.
