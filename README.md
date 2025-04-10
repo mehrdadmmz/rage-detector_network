@@ -54,6 +54,13 @@ experiments/
 ├── freezing_vs_finetuning.py  # Freezing vs. Fine-tuning experiments
 ├── learning_rate.py      # Learning rate experiment script
 ├── optimizer_comparision.py  # Optimizer comparison experiments
+
+multi_modal_experiments/
+├── dataset/              # dataset used for multimodal experiment
+├── frame_extra.py        # code used to generate multimodal dataset
+├── experiment.ipynb      # Jupyter Notebook for model experiment
+├── dataLoader.py         # dataloader for multimodal experiment
+├── README.md             # a description on multimodal experiment
 ```
 
 
