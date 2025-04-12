@@ -129,6 +129,9 @@ fter training, the best model is evaluated on the validation set. A confusion ma
 <img width="476" alt="image" src="https://github.com/user-attachments/assets/e09fc7b9-ee64-47d5-8b39-4ea863f1628f" />
 
 ## Self-Evaluation
+
+Overall, the project closely followed our initial proposal. We successfully gathered the data, trained and fine-tuned the model, and performed thorough exploratory data analysis to understand the underlying patterns. While the core plan remained intact, we refined some methods along the way to optimize performance and address unforeseen challenges. All special dependencies are documented in the README. This project not only met but, in some aspects, exceeded our original goals, resulting in a robust and efficient emotion classification system.
+
 ## Dependencies and Setup Instructions
 - Python 3.6 or later:
   - The code has been tested with Python 3.8+.
