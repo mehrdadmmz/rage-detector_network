@@ -86,6 +86,7 @@ dataset/
 ## Pre Trained Model Structure
 
 <img width="810" alt="image" src="https://github.com/user-attachments/assets/d42b3e7f-158b-46b4-87a6-1a6036e7237f" />
+<img width="719" alt="image" src="https://github.com/user-attachments/assets/717d84a1-e33e-4846-a679-3cac7cb870cc" />
 
 ## Running the Code
 
@@ -119,12 +120,15 @@ dataset/
     If you prefer working in a Jupyter Notebook environment, open the provided notebook file and run the cells interactively.
 
 ## Training and Validation Loss
-During training, both the training and validation losses are recorded for every epoch. After training, a graph is plotted showing the progress of both losses over the epochs.
+During training, both the training and validation losses are recorded for every epoch. After training, a graph is plotted showing the progress of both losses over the epochs. Our trained model shows a steady decrease in both training and validation losses through the epochs, which signals incremental learning with less significant overfitting. This also appears in the general accuracy of 86%, which displays a consistent capacity to distinguish between rage and non-rage states.
+
 
 <img width="709" alt="image" src="https://github.com/user-attachments/assets/b2b7b327-4477-4243-a277-fe3f3cf9539c" />
 
 ## Confusion Matrix
-fter training, the best model is evaluated on the validation set. A confusion matrix is generated to visualize the classification performance, along with a detailed classification report.
+After training, the best model is evaluated on the validation set. A confusion matrix is generated to visualize the classification performance, along with a detailed classification report. The confusion matrix illustrates that most frames are well-labeled, with 964 of 1,075 "rage" frames and 885 of 1,085 "non-rage" frames being predicted correctly. Although there are a few misclassifications (111 rage frames misclassified as non-rage and 200 non-rage frames misclassified as rage), the classification report shows strong precision, recall, and F1-scores (0.82-0.90). In particular, we see slightly higher recall for rage (0.90) than non-rage (0.82), indicating that the model more consistently identifies rage frames.
+Overall, the above findings demonstrate the model's competence in detecting rage-related cues with balanced precision and recall for both classes. This performance offers a solid foundation for practical applications requiring precise emotion or state detection. Nevertheless, further fine-tuning and expansion of the training set may improve its stability and generalizability in real-world situations.
+
 
 <img width="476" alt="image" src="https://github.com/user-attachments/assets/e09fc7b9-ee64-47d5-8b39-4ea863f1628f" />
 
