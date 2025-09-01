@@ -1,5 +1,13 @@
 # CNN-Driven Analysis of Emotional Outbursts in Twitch Streaming Content
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![PyTorch](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?logo=pytorch)
+![Torchvision](https://img.shields.io/badge/Lib-Torchvision-orange)
+![NumPy](https://img.shields.io/badge/Lib-NumPy-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Lib-Matplotlib-11557c?logo=plotly)
+![Scikit-learn](https://img.shields.io/badge/ML-Scikit--learn-F7931E?logo=scikitlearn)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-F37626?logo=jupyter)
+
 This repository contains code for training an image classifier using MobileNetV2 implemented in PyTorch. The project is organized into modular Python files and an accompanying Jupyter Notebook for exploration and analysis. This document provides guidance on the code organization, dataset structure, training experiments, and evaluation metrics.
 
 ## Table of Contents
